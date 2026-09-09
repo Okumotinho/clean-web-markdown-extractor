@@ -1,0 +1,20 @@
+{
+  "openapi": "3.0.2",
+  "info": {
+    "title": "Clean Web Markdown Extractor API",
+    "description": "High-performance API converting noisy web pages into clean LLM-ready markdown.",
+    "version": "1.0.0"
+  },
+  "paths": {
+    "/health": {
+      "get": {
+        "summary": "Health Check",
+        "responses": {
+          "200": {
+            "description": "Successful Response"
+          }
+        }
+      }
+    }
+  }
+}
