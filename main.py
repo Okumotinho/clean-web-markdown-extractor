@@ -17,6 +17,7 @@ class MarkdownResponse(BaseModel):
     word_count: int
 
 @app.get("/ping")
+@app.get("/healthz")
 @app.get("/health")
 def health_check():
     return {"status": "ok", "service": "markdown_extractor"}
